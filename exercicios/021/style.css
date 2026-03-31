@@ -1,0 +1,14 @@
+@charset 'UTP-8';
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+h1#principal {
+    color: rgb(29, 19, 43);
+}
+
+.primario {
+    color: rgb(0, 161, 135);
+}

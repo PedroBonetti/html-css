@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+        @font-face {
+            font-family: 'fonte';
+            src: url('fontes/idroid.otf') format('opentype');
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, #2ecc71, #0b3d0b);
+            padding-top: 16px;
+            padding-bottom: 10px;
+            text-align: center;
+            margin: 0;
+        }
+        
+        header > h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        header > p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header > nav {
+            color: white;
+            font-size: 0.9em;
+            font-family: Arial, Helvetica, sans-serif;
+            display: block;
+            text-align: left;
+            margin-left: 12px;
+        }
+
+        header > nav > a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;  
+        }
+
+        header > nav > a:hover {
+            background-color: #27995B;
+            color: #00571A;
+        }
+
+        body {
+            
+            background-color: #E8E7C2;
+            margin: 0;
+        }
+
+        main {
+            box-sizing: border-box;
+            max-width: 850px;
+            min-width: 450px;
+            width: calc(100% - 96px);
+            height: auto;
+            justify-content: center;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.205);
+            padding: 16px;
+            margin: 16px auto;
+            
+        }
+
+        main > h2 {
+            font-family: fonte;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        main > p {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            text-align: justify;
+            text-indent: 24px;
+        }
+
+        main > h3 {
+            font-family: fonte;
+            margin: 0;
+            font-weight: 100;
+            background-image: linear-gradient(to right, #6fe9a2, #ffffff);
+        }
+
+        main a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            margin: 0;
+            font-weight: 700;
+            padding: 0px 6px 0px 6px;
+            color: #3d0b00;
+            background-color: #6fe9a2;  
+        }
+
+        .id {
+            text-indent: 0px;
+        }
+
+        picture {
+            display: block;
+            margin: auto;
+            
+        }
+
+        .imgbig {
+            width: 100%;
+            }
+
+        img {
+            display: block;
+            margin: auto;
+            }
+
+        .video {
+            width: 100%;
+            height: 400px;
+        }
+
+        section {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 16px;
+            background-color: #7FE1A9;
+            border-radius: 8px;
+            margin-top: 16px;
+            overflow: hidden;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.438);
+            
+        }
+
+        section > h4 {
+            line-height: 1;
+            background-color: #145D33;
+            color: white;
+            padding: 8px;
+            margin: 0;
+        }
+
+        section > p {
+            text-align: justify;
+            margin: 0;
+            padding: 16px 8px 0px 8px;
+            text-indent: 24px;
+        }
+
+        section > p > a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            margin: 0;
+            font-weight: 700;
+            padding: 0px 6px 0px 6px;
+            color: #3d0b00;
+            background-color: #6fe9a2;  
+        }
+
+        ul {
+            columns: 2;
+            list-style: none;
+            display: block;
+            padding-left: 8px;
+        }
+
+        li::before {
+            content: url(imagens/Frame\ 1000004263.png);
+            margin-right: 6px;
+        }
+
+        footer {
+            background-color: #063C1C;
+            color: white;
+            text-align: center;
+        }
+
+        footer > p {
+            padding: 8px 0px 8px 0px;
+            margin: 0;
+        }
